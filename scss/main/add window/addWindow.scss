@@ -1,0 +1,86 @@
+/*----------------WINDOW ABOUT MODEL---------------*/
+.about {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+  	top: 0;
+  	font-family: 'HelveticaNeueCyr', sans-serif;
+}
+
+.about__content{
+	margin: 5% auto 15% auto;
+	padding: 45px 50px;
+	width: 470px;
+	height: 560px;}
+
+.aboutItem {
+	display: flex;
+	flex-direction: column;
+    background-color: #fff;
+	cursor: default;
+
+	img {
+		padding: 28px 0 39px;
+	}
+}
+
+.aboutItem__title {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.content__close {
+    cursor: pointer;
+    position: relative;
+    right: -160px;
+    top: -30px;
+    color: #000;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.abouButtonWrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 26px;
+}
+
+.aboutItem__text {
+	padding-top: 3px;
+
+	span {
+		font-size: 16px;
+	}
+
+	a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #199C68;
+	}
+}
+
+.aboutItem__button {
+	cursor: pointer;
+	color: #fff;
+	background-color: #199C68;
+	padding: 18px 32px;
+	border: none;
+
+	&:hover {
+		opacity: 0.9;
+	}
+}
+
+.aboutItem__prop:after {
+    bottom: .3em;
+}
+    
+.aboutItem__value {
+    float: right;
+    padding-left: .2em;
+}

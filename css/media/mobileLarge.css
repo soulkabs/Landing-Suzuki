@@ -1,0 +1,73 @@
+/*-------------------Mobile Large------------------------------*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .inner {
+    padding: 20px 0px 39px; }
+  .bunner__subTitle {
+    font-size: 60px; }
+  .bunner__title {
+    font-size: 30px; }
+  .bunner__button {
+    padding: 12px 27px 11px 26px; }
+  .wrapper {
+    padding-top: 57px; }
+  .bunner__line {
+    width: 50px;
+    height: 6px; }
+  .bunner, .bunner2 {
+    margin: 0; }
+  .wrap {
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  .suzuki__img {
+    width: 70%; }
+  .suzuki {
+    padding: 20px 0px 25px;
+    width: 50%;
+    height: 185px; }
+  .suzukiItem {
+    width: 30%; }
+  .suzukiItem img {
+    width: 100%; }
+  .suzukiItem__text span {
+    font-size: 12px;
+    line-height: 20px; }
+  .buttonWrap {
+    margin-top: 10px; }
+  .suzukiItem__button1 {
+    font-size: 12px;
+    line-height: normal; }
+  .suzukiItem__button2 {
+    font-size: 15px;
+    line-height: normal;
+    padding: 12px 0 11px; }
+  .lableWrap {
+    padding: 54px 0px 92px; }
+  .lable {
+    font-size: 22px; }
+  .service__title {
+    font-size: 8px; }
+  .serviceInner {
+    padding: 9px 5px 22px;
+    width: 30%;
+    top: -30px; }
+  .serviceInner div {
+    padding-top: 10px; }
+  .bankServiceInner {
+    width: 31%; }
+  .bankServiceInner img {
+    width: 45px; }
+  .bankServiceInner .bankService__title {
+    padding: 14px 0px 9px; }
+  .bankService__title {
+    font-size: 18px; }
+  .bankService__subtitle {
+    font-size: 12px; }
+  .bankService {
+    padding-bottom: 82px; }
+  .map {
+    padding-top: 57px;
+    padding-bottom: 80px; }
+  .adress {
+    width: 400px; }
+  .adressWrap {
+    padding: 23px 56px 40px 30px; } }

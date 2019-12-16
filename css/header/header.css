@@ -1,0 +1,39 @@
+/*-----------------------------HEADER-------------------------------*/
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.logotype {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .logotype .logotype__img:nth-child(2n) {
+    padding: 0 40px 0 15px; }
+
+.navigation__logotype {
+  padding: 12px 0px 21px; }
+
+.telephone {
+  text-align: right; }
+
+.telephone__number {
+  font-size: 25px;
+  font-weight: bold; }
+
+.telephone__text {
+  cursor: pointer; }
+
+.telephone__text_blue {
+  color: #005AAD; }

@@ -1,0 +1,38 @@
+/*--------------------------Laptop----------------------------------*/
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+	.inner {
+	    padding: 50px 0px 80px;
+	}
+
+	.bunner, .bunner2 {
+   		 margin: 0 20px 0 15px;
+	}
+
+	.bunner__title {
+	    font-size: 30px;
+	}
+
+	.bunner__subTitle {
+	    font-size: 70px;
+	}
+
+	.bunner__button {
+	    padding: 15px 33px 16px 33px;
+	}
+
+	.wrapper {
+	    padding-top: 70px;
+	}
+
+	.suzuki {
+	    padding: 60px 80px 65px;
+	}
+
+	.suzukiItem {
+	    width: 24%;
+	}
+
+	.serviceInner {
+	    width: 29%;
+	}
+}

@@ -1,0 +1,39 @@
+@import "../variables.scss";
+
+/*-----------------------------HEADER-------------------------------*/
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logotype {
+	display: flex;
+	align-items: center;
+
+	.logotype__img:nth-child(2n) {
+		padding: 0 40px 0 15px;
+	}
+}
+
+.navigation__logotype {
+	padding: 12px 0px 21px;
+}
+
+.telephone {
+	text-align: right;
+}
+
+.telephone__number {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.telephone__text {
+	cursor: pointer;
+}
+
+.telephone__text_blue {
+	color: $colorBlue;
+}

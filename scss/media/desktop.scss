@@ -1,0 +1,90 @@
+/*--------------------Desktop--------------------------*/
+@media only screen  and (min-width: 768px) and (max-width : 1024px){
+	header, footer{
+		padding: 0 20px;
+	}
+
+	.telephone__number {
+	    font-size: 17px;
+	}
+
+	.bunner, .bunner2 {
+   		 margin: 0 20px 0 15px;
+	}
+
+	.bunner__title {
+    	font-size: 20px;
+	}
+
+	.bunner__subTitle {
+	    font-size: 35px;
+	}
+
+	.bunner__button {
+	    font-size: 10px;
+	    padding: 10px 20px 10px 20px;
+	}
+
+	.inner {
+	    padding: 30px 0px 50px;
+	}
+
+	.vitara, .sx4, .service {
+		padding: 0 10px;
+	}
+
+	.wrapper {
+	    padding-top: 70px;
+	}
+
+	.suzuki {
+	    padding: 40px 60px 0px;
+	    width: 30%;
+	}
+	.suzuki img {
+		width: 100%;
+	}
+
+	.suzukiItem {
+	    width: 24%;
+	}
+
+	.suzukiItem img {
+		width: 100%;
+	}
+
+	.suzukiItem__button1 {
+	    font-size: 13px;
+	    line-height: normal;
+	}
+
+	.suzukiItem__button2 {
+	    font-size: 16px;
+	    line-height: normal;
+	}
+
+	.lable {
+	    font-size: 35px;
+	}
+
+		.bankService {
+	    padding-bottom: 90px;
+	}
+
+	.serviceInner {
+	    padding: 9px 9px 20px;
+	    width: 30%;
+	}
+
+	.map {
+	    padding-top: 57px;
+	    padding-bottom: 80px;
+	}
+
+	.adress {
+	    width: 400px;
+	}
+	.adressWrap {
+	    padding: 23px 56px 40px 30px;
+	}
+}

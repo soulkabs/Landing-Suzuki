@@ -1,0 +1,32 @@
+/*--------------------------MODELS--------------------------------*/
+.wrap_grey {
+  position: relative;
+  z-index: 0;
+  top: -40px;
+  background-color: #EBEBEB; }
+
+.models {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap; }
+
+.suzuki {
+  text-align: center;
+  padding: 60px 112px 65px;
+  height: 230px; }
+
+.suzuki_active {
+  background-color: #fff; }
+  .suzuki_active .suzuki__text {
+    color: #005AAD; }
+
+.suzuki__text {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 12px; }
+
+.suzuki__img {
+  cursor: pointer; }
