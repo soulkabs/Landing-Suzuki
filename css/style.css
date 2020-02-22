@@ -54,15 +54,35 @@ body {
 /*----------------------------BUNNER-------------------------------*/
 .bunner, .bunner2 {
   cursor: pointer;
-  background-image: url("../img/image 69.png");
+  background-image: url("../img/image69.png");
   color: #fff;
   background-size: cover;
   margin: 0 66px 0 41px;
   position: relative;
   z-index: 1; }
 
+.next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 5%;
+  height: 20%;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 75%;
+  left: 85%;
+  padding: 0 10px; }
+  .next img {
+    width: 100%; }
+
 .bunner2 {
-  background-image: url("../img/image 70.jpg");
+  background-image: url("../img/image70.jpg");
   display: none; }
 
 .inner {
@@ -168,8 +188,13 @@ body {
   font-size: 20px;
   text-align: center; }
 
+.suzukiItem img {
+  max-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
 .suzukiItem__text span {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
   color: #979797; }
 
@@ -280,7 +305,7 @@ body {
 
 /*------------------------MAP------------------------*/
 .map {
-  background-image: url("../img/image 8.png");
+  background-image: url("../img/image8.png");
   background-size: cover;
   padding-top: 68px;
   padding-bottom: 175px;
@@ -336,6 +361,7 @@ body {
   background-color: #fff;
   cursor: default; }
   .aboutItem img {
+    max-width: 100%;
     padding: 28px 0 39px; }
 
 .aboutItem__title {
